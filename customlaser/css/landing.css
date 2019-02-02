@@ -1,0 +1,109 @@
+﻿.html, body {
+    background-image: url(../assets/pattern.svg);
+    background-size: 150% 150%;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    padding-top: 10px;
+    text-shadow: -1px -1px rgba(55, 55, 55, 0.46);
+    font-size: 1.2em;
+}
+
+.container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr auto auto auto 1fr;/*repeat(5, 1fr);*/
+    grid-template-rows: min-content auto;
+}
+
+    .container > div {}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .header svg {
+        margin: 20px;
+        width: 100%;
+        min-width: 50px;
+        max-width: 300px;
+    }
+
+.webmain {
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: flex-end;
+}
+
+    .webmain svg {
+    }
+
+.store {
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: center;
+    margin-top:5px;
+}
+
+    .store svg {
+    }
+
+.newsletter {
+    grid-column: 4 / 5;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+    .newsletter svg {
+    }
+
+.footer {
+    grid-column: 2 / 5;
+    display: flex;
+    flex-wrap: wrap;
+    color: #373737;
+    margin: auto;
+    clear: both;
+}
+
+    .footer .copywrite {
+        margin: 10px 20px -20px 20px;
+    }
+
+    .footer .social {
+        text-align: right;
+        margin: 25px 20px 0px 20px;
+    }
+
+        .footer .social svg {
+            padding-top: 10px;
+            width: 40px;
+        }
+
+        .footer .social .Facebook {
+            fill: #3B5998;
+        }
+
+        .footer .social .LinkedIn {
+            fill: #0077B5;
+        }
+
+        .footer .social .GitHub {
+            fill: #181717;
+        }
+
+        .footer .social .Instagram {
+            fill: #E4405F;
+        }
+
+        .footer .social .Twitter {
+            fill: #1DA1F2;
+        }
