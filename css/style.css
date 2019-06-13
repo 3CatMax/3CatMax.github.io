@@ -54,7 +54,7 @@
 	}
 
 		/*Set your custom screen width here replacing 700*/
-		@media (max-width: 747px){
+		@media (max-width: 575px){
 		/*applies 'display = none' to everything else.*/
 		  .TopNav .rightNavLinksBox li {
 			display: none;
