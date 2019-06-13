@@ -525,7 +525,8 @@ section {
     .pagebutt .container {
         margin-top: 20px;
         margin-bottom: 0px;
-    }
+		text-align: left;
+}
 
     .pagebutt .buttlogo {
         width: 80px;
