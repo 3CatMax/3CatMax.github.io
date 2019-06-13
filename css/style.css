@@ -22,15 +22,23 @@
 }
 
     .TopNav .LeftLogoBox {
-        padding: 10px 0px 10px 20px;
-		display: inline-flex;
+		display: inline-flex; /*needed to have both logo and nav menu in same bar*/
     }
 
         .TopNav .LeftLogoBox a {
             text-decoration: none;
             text-align: left;
             font-size: 3rem;
+			display: block;
+			padding: 5px 10px 7px 15px;
+			transition: ease 0.25s;
         }
+
+.TopNav .LeftLogoBox a:active { color: #74DDD9; }
+.TopNav .LeftLogoBox a:hover { background: white; color: #74DDD9; }
+
+
+
 /*BURGER BURGER BURGER BURGER BURGER BURGER BURGER BURGER BURGER BURGER */
 * { box-sizing: border-box; }
 
