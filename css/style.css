@@ -1,4 +1,4 @@
-﻿
+
 /*                
  888b      88                        88                                88                          
  8888b     88                        ""                          ,d    ""                          
@@ -23,6 +23,7 @@
 
     .TopNav .LeftLogoBox {
         padding: 10px 0px 10px 20px;
+		display: inline-flex;
     }
 
         .TopNav .LeftLogoBox a {
@@ -32,13 +33,15 @@
         }
 
     .TopNav .rightNavLinksBox {
+		float: right;
         text-align: right;
-        margin: 20px 0px 16px 0px;
+        margin: 15px 10px 15px 0px;
+		display: inline-flex;
     }
 
         .TopNav .rightNavLinksBox li {
             display: inline;
-            margin: auto 10px auto 10px;
+            margin: auto 8px auto 8px;
         }
 
             .TopNav .rightNavLinksBox li a {
@@ -46,6 +49,44 @@
                 font-size: 2rem;
                 letter-spacing: 0.01rem;
             }
+	.TopNav .rightNavLinksBox .icon{
+		display: none;
+	}
+
+		/*Set your custom screen width here replacing 700*/
+		@media (max-width: 747px){
+		/*applies 'display = none' to everything else.*/
+		  .TopNav .rightNavLinksBox li {
+			display: none;
+		  }
+		/*Brings the menu icon into view and floats it to the right*/
+		  .TopNav .rightNavLinksBox a.icon{
+			display: block; 
+			text-decoration: none;
+			font-size: 4rem;
+			margin-top: -16px;
+		  }
+
+		/*The navBar class will be changed to 'navBar responsive' using JS. This chunk of CSS makes the menu icon stay where it is by making the position absolute within it's parent 'right top corner'. Without this, the icon will get kicked around when the items are collapsed and expanded*/
+		  .TopNav .rightNavLinksBox .responsive {
+			position: relative;
+		  }
+		  .TopNav .rightNavLinksBox .responsive a.icon {
+			position: absolute;
+			right: 0;
+			top: 0;
+		  }
+
+		/*Removes the originally set float and brings them to view*/
+		  .TopNav .rightNavLinksBox .responsive a {
+			float: none;
+			display: block;
+			text-align: left;
+		  }
+		}
+
+
+
 
 
 
@@ -385,7 +426,7 @@ section {
 */
 .quote .button {
     margin: 150px 0px;
-    color: blueviolet;
+    color: #6D50E1;
     ;
 }
 /*.quote::before {
@@ -487,15 +528,16 @@ section {
     }
 
     .pagebutt .buttlogo {
-        width: 100px;
+        width: 80px;
         overflow: hidden;
         display: inline-block;
+		margin-bottom: -10px;
     }
 
     .pagebutt p {
         display: inline-block;
-        margin: 0px;
-        padding: 10px;
+        margin: -10px 0px 10px -5px;
+        padding:10px 10px 10px 10px;
         vertical-align: top;
     }
 
@@ -565,7 +607,7 @@ d8'          `8b 8Y"Ybbd8"'   `"YbbdP"'   `"YbbdP'Y8   "Y888
 }
 
 .about h2 {
-    color: blueviolet;
+    color: #6d50e1;
 }
 
 .about h3 {
@@ -586,7 +628,7 @@ d8'          `8b 8Y"Ybbd8"'   `"YbbdP"'   `"YbbdP'Y8   "Y888
 }
 
 .insta a{
-    color:blueviolet;
+    color:#6d50e1;
     text-decoration:none;
 }
 .insta a:hover{
