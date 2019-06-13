@@ -36,19 +36,18 @@
                   \_/ \_/ \_/ \_/ \_/ \_/
         -->
   <div class="row">
-    <div class="LeftLogoBox"> <a href="../index.html">3 Cat Max</a> 
-	</div>
-	  
-    <ul class="rightNavLinksBox" id="mainNavBar"> 
-		<li><a href="../about.html">About&nbsp;|&nbsp;FAQ</a></li>
-		<li><a href="https://3catmax.bigcartel.com" target="_blank">Store</a></li>
-		<li><a href="../contact.html">Custom&nbsp;Puzzles</a></li>
-      <!--☰--> 
-      <a href="javascript:void(0);" 
-		   class="icon" 
-		   onClick="openDrawerMenu()">&#9776;</a> 
-	</ul>
-	  
+    <div class="LeftLogoBox"> <a href="../index.html">3 Cat Max</a> </div>
+    <div class="burgermenu-container">
+      <label for="burgercheck" class="burgermenu-wrapper">
+      <div class="burger-element"></div>
+      </label>
+    </div>
+    <input type="checkbox" class="menubox" id="burgercheck">
+    <ul class="link-wrapper">
+      <li class="is-active"><a href="../about.html">About&nbsp;|&nbsp;FAQ</a></li>
+      <li><a href="https://3catmax.bigcartel.com" target="_blank">Store</a></li>
+      <li><a href="../contact.html">Custom&nbsp;Puzzles</a></li>
+    </ul>    
   </div>
 </nav>
 <!-- TemplateBeginEditable name="PageBody" -->
@@ -133,16 +132,6 @@
 </section>
 </body>
 </html>
-<script type="text/javascript">
-	function openDrawerMenu(){
-	  var x = document.getElementById("mainNavBar");
-	  if (x.className === "rightNavLinksBox"){
-		x.className += " responsive";
-	  } else {
-		x.className = "rightNavLinksBox";
-	  }
-	}
-</script>
 
 <script src="css/instafeed.min.js"></script>
 <script type="text/javascript">
