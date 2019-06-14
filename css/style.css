@@ -514,19 +514,16 @@ section {
 		padding:0px 8px;
     }
 .lownav .buttlogo{
-		max-width: 300px;
-		min-width: 200px;
-        overflow: hidden;
-		display: block;
+	margin-right:30px;
 }
 
 .buttLinks{
-	margin-top:30px;
+	margin-top:10px;
 }
 /* Social Links Social Links Social Links Social Links Social Links Social Links Social Links Social Links */
 .social{
-	margin-top:40px;
-	min-width:220px;
+	margin-top:20px;
+	
 }
 
 .social a{
@@ -538,16 +535,8 @@ section {
 	}
 
 .social li {
-		display: inline;
+		display: inline-block;
 }
-.social .socialpartA{
-	display: inline-block;
-}
-
-.social .socialpartB{
-	display: inline-block;
-}
-
 	.social .Facebook:hover {
 		fill: #3B5998;
 	}
