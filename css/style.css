@@ -514,15 +514,21 @@ section {
 		padding:0px 8px;
     }
 .lownav .buttlogo{
-	margin-right:30px;
+	display: inline-flex;
+	margin: 0px 10px;
 }
 
 .buttLinks{
-	margin-top:10px;
+	vertical-align: top;
+	margin:10px 15px 0px 15px;
+	padding: 0px 20px;
+	display: inline-flex;
 }
 /* Social Links Social Links Social Links Social Links Social Links Social Links Social Links Social Links */
 .social{
+	vertical-align: top;
 	margin-top:20px;
+	display: inline-flex;
 	
 }
 
