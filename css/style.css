@@ -503,100 +503,72 @@ section {
 */
 .lownav {
     background-color: #afeeee;
-    color: white;
-    font-size: 2rem;
-	font-weight: 400;
-    text-align: center;
-    padding: 30px 10px 10px 10px;
+	color:#ffffff;
+	text-align: center;
 }
-
-    .lownav .container {
-        margin: 0px auto;
-    }
-
-    .lownav li {
-        display: inline;
-        padding-right: 15px;
-    }
 
     .lownav a {
         text-decoration: none;
+		font-size: 2rem;
+		font-weight:600;
+		padding:0px 8px;
     }
-/*
-                                        ad88888ba                         88            88  
-                                       d8"     "8b                        ""            88  
-                                       Y8,                                              88  
-                                       `Y8aaaaa,    ,adPPYba,   ,adPPYba, 88 ,adPPYYba, 88  
-                                         `"""""8b, a8"     "8a a8"     "" 88 ""     `Y8 88  
-                                               `8b 8b       d8 8b         88 ,adPPPPP88 88  
-                                       Y8a     a8P "8a,   ,a8" "8a,   ,aa 88 88,    ,88 88  
-                                        "Y88888P"   `"YbbdP"'   `"Ybbd8"' 88 `"8bbdP"Y8 88 
-*/
-.social svg {
-    fill: white;
-    width: 50px;
+.lownav .buttlogo{
+		max-width: 300px;
+		min-width: 200px;
+        overflow: hidden;
+		display: block;
 }
+
+.buttLinks{
+	margin-top:30px;
+}
+/* Social Links Social Links Social Links Social Links Social Links Social Links Social Links Social Links */
+.social{
+	margin-top:40px;
+	min-width:220px;
+}
+
+.social a{
+	padding: 5px 0px;
+}
+.social svg {
+		fill: white;
+		width: 50px;
+	}
 
 .social li {
-    display: inline;
-    padding: 0px;
+		display: inline;
+}
+.social .socialpartA{
+	display: inline-block;
 }
 
-.Facebook:hover {
-    fill: #3B5998;
+.social .socialpartB{
+	display: inline-block;
 }
 
-.LinkedIn:hover {
-    fill: #0077B5;
-}
+	.social .Facebook:hover {
+		fill: #3B5998;
+	}
 
-.GitHub:hover {
-    fill: #181717;
-}
+	.social .LinkedIn:hover {
+		fill: #0077B5;
+	}
 
-.Instagram:hover {
-    fill: #E4405F;
-}
+	.social .GitHub:hover {
+		fill: #181717;
+	}
 
-.Twitter:hover {
-    fill: #1DA1F2;
-}
+	.social .Instagram:hover {
+		fill: #E4405F;
+	}
 
-/*
-     88888888ba                                       88888888ba                               
-     88      "8b                                      88      "8b               ,d      ,d     
-     88      ,8P                                      88      ,8P               88      88     
-     88aaaaaa8P' ,adPPYYba,  ,adPPYb,d8  ,adPPYba,    88aaaaaa8P' 88       88 MM88MMM MM88MMM  
-     88""""""'   ""     `Y8 a8"    `Y88 a8P_____88    88""""""8b, 88       88   88      88     
-     88          ,adPPPPP88 8b       88 8PP"""""""    88      `8b 88       88   88      88     
-     88          88,    ,88 "8a,   ,d88 "8b,   ,aa    88      a8P "8a,   ,a88   88,     88,    
-     88          `"8bbdP"Y8  `"YbbdP"Y8  `"Ybbd8"'    88888888P"   `"YbbdP'Y8   "Y888   "Y888  
-                             aa,    ,88                                                        
-                              "Y8bbdP"                                                       
-*/
-.pagebutt {
-    margin-left: 10px;
-}
+	.social .Twitter:hover {
+		fill: #1DA1F2;
+	}
 
-    .pagebutt .container {
-        margin-top: 20px;
-        margin-bottom: 0px;
-		text-align: left;
-}
 
-    .pagebutt .buttlogo {
-        width: 80px;
-        overflow: hidden;
-        display: inline-block;
-		margin-bottom: -10px;
-    }
-
-    .pagebutt p {
-        display: inline-block;
-        margin: -10px 0px 10px -5px;
-        padding:10px 10px 10px 10px;
-        vertical-align: top;
-    }
 
 
 
