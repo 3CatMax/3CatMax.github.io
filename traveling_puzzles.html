@@ -134,7 +134,7 @@
 <!-- InstanceEnd --></html>
 
 <script src="css/instafeed.min.js"></script>
-<script type="text/javascript">
+<!--<script type="text/javascript">
     var userFeed = new Instafeed({
         get: 'user',
         userId: '4789794978',
@@ -145,6 +145,21 @@
         sortBy: 'most-recent',
         limit: 20,
         links: false
+    });
+    userFeed.run();
+</script>-->
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: '4789794978',
+		clientId: '758ecda6156a4fefa2dda30f88357812',
+        accessToken: '4789794978.758ecda.370b90051b184690b09ace32335a3535',
+        resolution: 'thumbnail',
+        template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>',
+        sortBy: 'most-recent',
+        limit: 20,
+        links: false,
+		filter: function(image) {return image.tags.indexOf('100travelingpuzzles') >= 0;}
     });
     userFeed.run();
 </script>
