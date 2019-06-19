@@ -261,13 +261,13 @@ section {
                                           88        88 "8b,   ,aa 88         "8a,   ,a8"  
                                           88        88  `"Ybbd8"' 88          `"YbbdP"'  
     hero image provides fade*/
-.hero {
+#hero {
 	/*padding-top: 60px; for phone only*/
 	position: relative;
 	background-color: #94d3d0; /* layer fill content */
 	color: white;
 }
-.hero .herologo {
+#hero .herologo {
 	margin: 80px auto 35px auto;
 	padding: 0px 0px 0px 50px;
 	width: 80%;
@@ -275,11 +275,11 @@ section {
 	min-width: 300px;
 	overflow: hidden;
 }
-.hero .separator {
+#hero .separator {
 	margin: -50px 0px 50px 0px;
 }
 /*Introduction------------------------ */
-.introduction svg {
+#introduction svg {
 	margin: -5px -5px -2px 2px;
 }
 /*                                                                                      
@@ -293,26 +293,28 @@ section {
 								 88 88         `"8bbdP"Y8     "8"     88           `"YbbdP'Y8 888888888 888888888  
 
 */
-.travPuzz {
+#travPuzz {
 	text-align: center; /*align images in li*/
 }
-.travPuzz h4 {
+#travPuzz h4 {
 	padding-top: 50px;
 }
-.travPuzz li h5 {
+#travPuzz li h5 {
 	font-weight: 500;
 	margin-top: 40px;
 	margin-bottom: 10px;
 	text-align: center;
 }
-.travPuzz .four.columns {
+#travPuzz .four.columns {
 	margin-top: -10px;
 }
-.travPuzz img {
+#travPuzz img {
 	width: 100%;
 	position: relative;
 	z-index: -100;
 }
+
+/*Also used on traveling_puzzles.html*/
 .stupidButtons {
 	display: inline-block;
 }
@@ -336,24 +338,24 @@ section {
                                                                            88           
                                                                            88           
 */
-.puzzMap h5 {
+#puzzMap h5 {
 	text-align: left;
 }
-.puzzMap li {
+#puzzMap li {
 	margin-top: 50px;
 	margin-bottom: 10px;
 	text-align: center; /*center aligns images*/
 }
-.puzzMap li h5 {
+#puzzMap li h5 {
 	font-weight: 500;
 	margin-top: 30px;
 	margin-bottom: 10px;
 	text-align: center;
 }
-.puzzMap li p {
+#puzzMap li p {
 	text-align: left;
 }
-/* .puzzMap li img {
+/* #puzzMap li img {
         height: 150px;
     }*/
 /*
@@ -368,22 +370,22 @@ section {
                 `"Y8888Y"'   `"YbbdP'Y8 `"YbbdP"'   "Y888 `"YbbdP"'  88      88      88 88888888888 `"YbbdP"'      "8"      `"Ybbd8"'  
 
 */
-.customLove {
+#customLove {
 	background-color: #94d3d0;
 }
-.customLove ul {
+#customLove ul {
 	margin-bottom: 10px;
 	margin-top: -8px; /*takes care of extra space between two ULs*/
 	margin-right: 20px;
 	margin-left: 20px;
 }
-/* .customLoveimg {
+/* #customLoveimg {
         width: 100%;
         z-index: 5;
         position: relative;
         text-align: center;
     }
-.customLove::before {
+#customLove::before {
     background: url("../Assets/BigImages/creativity_bg_image.jpg");
     background-size: cover;
     background-position:50%;
@@ -398,7 +400,7 @@ section {
                                        `888'      88 "8a,   ,d88 "8b,   ,aa "8a,   ,a8"  
                                         `8'       88  `"8bbdP"Y8  `"Ybbd8"'  `"YbbdP"'
 */
-.video-iframe {
+#video-iframe {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -408,21 +410,21 @@ section {
 	width: 100%;
 	display: none;
 }
-.video p {
+#video p {
 	text-align: center;
 	color: black;
 }
-.button.circle {
+#video .button.circle {
 	/*video button*/
 	width: 10em;
 	height: 10em;
 	border-radius: 50%;
 }
-.video a {
+#video a {
 	visibility: hidden;
 	padding: 4px 0px 0px 0px;
 }
-/*.video::before {
+/*#video::before {
     background: url("../Assets/BigImages/video_bg_image.jpg");
     background-size: cover;
     background-position: 50% 50%;
@@ -441,14 +443,14 @@ section {
                                                                                                                           d8'      
                                                                                                                          d8'       
 */
-.community {
+#community {
 	margin-top: 30px;
 	margin-bottom: -20px;
 }
-.community ul h2 {
+#community ul h2 {
 	margin: -10px 0px 20px 0px;
 }
-.community ul h4 {}
+#community ul h4 {}
 #instafeed {
 	display: inline-block;
 }
@@ -471,12 +473,12 @@ section {
                                   Y8a.    Y88P  "8a,   ,a88 "8a,   ,a8"  88,  "8b,   ,aa  
                                    `"Y8888Y"Y8a  `"YbbdP'Y8  `"YbbdP"'   "Y888 `"Ybbd8"'
 */
-.quote .button {
+#quote .button {
 	margin: 150px 0px;
 	color: #6D50E1;
 	;
 }
-/*.quote::before {
+/*#quote::before {
     background: url("../Assets/BigImages/quote_bg_image.jpg");
     background-size: cover;
     background-position: 50% 50%;
@@ -576,7 +578,7 @@ section {
                                                                                aa,    ,88  
                                                                                 "Y8bbdP"   
 */
-.landinglogo {
+/*.landinglogo {
 	width: 250px;
 	margin: -50px auto 20px auto;
 	overflow: hidden;
@@ -587,7 +589,7 @@ section {
 .landing .container {
 	max-width: 600px;
 	text-align: center;
-}
+}*/
 /*
                                                               
        db        88                                           
