@@ -303,15 +303,15 @@ section {
 	z-index: -100;
 }
 
-.possibilities .stupidButtons{
+.stupidButtons{
 	display: inline-block;
 }
-.possibilities .havePuzz {
+.havePuzz {
 	margin:30px 5px;
 	padding: 20px;
 
 }
-.possibilities .wantPuzz{
+.wantPuzz{
 	margin:30px 5px;
 	padding: 20px;
 }
