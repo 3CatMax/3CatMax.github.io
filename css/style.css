@@ -11,7 +11,7 @@
                     88                                               
                     88                                               
 */
-.TopNav {
+#TopNav {
 	background-color: #74ddd9;
 	width: 100%;
 	height: 60px;
@@ -19,10 +19,10 @@
 	position: fixed;
 	top: 0;
 }
-.TopNav .LeftLogoBox {
+#TopNav .LeftLogoBox {
 	display: inline-flex; /*needed to have both logo and nav menu in same bar*/
 }
-.TopNav .LeftLogoBox a {
+#TopNav .LeftLogoBox a {
 	text-decoration: none;
 	text-align: left;
 	font-size: 3rem;
@@ -30,10 +30,10 @@
 	padding: 5px 10px 7px 15px;
 	transition: ease 0.25s;
 }
-.TopNav .LeftLogoBox a:active {
+#TopNav .LeftLogoBox a:active {
 	color: #74DDD9;
 }
-.TopNav .LeftLogoBox a:hover {
+#TopNav .LeftLogoBox a:hover {
 	background: white;
 	color: #74DDD9;
 }
@@ -491,57 +491,65 @@ section {
               88         "8a,   ,a8"   `8bd8'  `8bd8'   88     `8888 88,    ,88   `8b,d8'    
               88888888888 `"YbbdP"'      YP      YP     88      `888 `"8bbdP"Y8     "8"   
 */
-.lownav {
+#LowNav {
 	background-color: #afeeee;
 	color: #ffffff;
 	text-align: center;
 }
-.lownav a {
+#LowNav a {
 	text-decoration: none;
 	font-size: 2rem;
 	font-weight: 600;
 	padding: 0px 8px;
 }
-.lownav .buttlogo {
-	display: inline-flex;
-	margin: 0px 10px;
-}
-.buttLinks {
+#LowNav .links{
 	vertical-align: top;
 	margin: 10px 15px 0px 15px;
 	padding: 0px 20px;
 	display: inline-flex;
 }
-/* Social Links Social Links Social Links Social Links Social Links Social Links Social Links Social Links */
-.social {
+#LowNav .social {
 	vertical-align: top;
 	margin-top: 20px;
 	display: inline-flex;
 }
-.social a {
+#LowNav .social a {
 	padding: 5px 0px;
 }
-.social svg {
+#LowNav .social svg {
 	fill: white;
 	width: 50px;
 }
-.social li {
+#LowNav .social li {
 	display: inline-block;
 }
-.social .Facebook:hover {
+#LowNav .social .Facebook:hover {
 	fill: #3B5998;
 }
-.social .LinkedIn:hover {
+#LowNav .social .LinkedIn:hover {
 	fill: #0077B5;
 }
-.social .GitHub:hover {
+#LowNav .social .GitHub:hover {
 	fill: #181717;
 }
-.social .Instagram:hover {
+#LowNav .social .Instagram:hover {
 	fill: #E4405F;
 }
-.social .Twitter:hover {
+#LowNav .social .Twitter:hover {
 	fill: #1DA1F2;
+}
+#LowNav .copyright {
+	margin-top:20px;
+	display: inline-flex;
+}
+#LowNav .copyright .buttlogo {
+	display: inline-flex;
+	margin: 0px 10px;
+}
+#LowNav .copyright .buttText {
+	display: inline-flex;
+	text-align:center;
+	margin-top:10px;
 }
 /*
 
