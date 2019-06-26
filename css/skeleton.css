@@ -189,7 +189,7 @@ button {
     line-height: 3.5rem;
     letter-spacing: .2rem;
     text-decoration: none;
-    white-space: nowrap;
+    /*white-space: nowrap removed 6/26 because it is pushing the background wider than the bgpics, resulting in a line down the right side*/
     background-color: rgba(167, 255, 250, 0.3); /*translucent*/
     border-radius: 5px;
     border: 3px solid #ffffff;
