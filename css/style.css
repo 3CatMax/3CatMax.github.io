@@ -296,6 +296,7 @@ section {
 #travPuzz {
 	text-align: center; /*align images in li*/
 }
+
 #travPuzz h4 {
 	padding-top: 50px;
 }
@@ -608,12 +609,7 @@ d8'          `8b 8Y"Ybbd8"'   `"YbbdP"'   `"YbbdP'Y8   "Y888
 	margin-bottom: 20px;
 	padding: 20px 20px 5px 20px;
 }
-.about .military h5 {
-	font-weight: 500;
-	text-align: center;
-	margin-top: -10px;
-	margin-bottom: 15px;
-}
+
 .about h2 {
 	color: #7F66E6;
 }
@@ -623,6 +619,12 @@ d8'          `8b 8Y"Ybbd8"'   `"YbbdP"'   `"YbbdP'Y8   "Y888
 	font-weight: bold;
 	text-transform: uppercase;
 }
+.about .military h5 {
+	font-weight: 500;
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 15px;
+}
 .about a {
 	color: #74ddd9;
 	text-decoration: none;
@@ -630,6 +632,8 @@ d8'          `8b 8Y"Ybbd8"'   `"YbbdP"'   `"YbbdP'Y8   "Y888
 .about a:hover {
 	color: #6d50e1;
 }
+
+
 .insta {
 	text-align: center;
 }
@@ -663,4 +667,41 @@ d8'          `8b 8Y"Ybbd8"'   `"YbbdP"'   `"YbbdP'Y8   "Y888
 	100% {
 		background-position: -2800px 0;
 	}
+}
+
+
+/*PuzzPages*/
+#PuzzPages h3{
+	font-size: 4.0rem;
+	line-height: 2;
+	font-weight: bold;
+	text-transform: uppercase;	
+}
+#PuzzPages .content{
+	display: inline-flex;
+	margin-top: 50px;
+}
+#PuzzPages .listTitles{
+	margin-left: 50px;
+	font-weight: 600;	
+}
+
+#PuzzPages .listText{
+	margin-left: 20px;	
+}
+#PuzzPages img{
+	width:100%;
+	height: 100%;
+}
+
+
+
+
+/*Cat-alog*/
+
+#Catalog h3 {
+	font-size: 4.0rem;
+	line-height: 2;
+	font-weight: bold;
+	text-transform: uppercase;
 }
