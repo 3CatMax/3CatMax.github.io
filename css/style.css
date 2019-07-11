@@ -317,15 +317,16 @@ section {
 
 /*Also used on traveling_puzzles.html*/
 .stupidButtons {
-	display: inline-block;
-}
+	}
 .havePuzz {
 	margin: 30px 5px;
 	padding: 20px;
+	display: inline-block;
 }
 .wantPuzz {
 	margin: 30px 5px;
 	padding: 20px;
+	display: inline-block;
 }
 /*                                                                                        
   88888888ba                                  88b           d88                         

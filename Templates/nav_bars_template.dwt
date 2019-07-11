@@ -7,23 +7,19 @@
 <title>3 Cat Max Custom Laser</title>
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
-<meta name="Laser Cats! Pew! Pew! Pew!" content="">
+<meta name="Laser Cats! Pew! Pew! Pew!!!" content="">
 <meta name="Janell Amely" content="">
 <!-- TemplateEndEditable -->
-<!-- Mobile Specific Metas
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- Mobile Specific Metas    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- FONT
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- FONT    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-<!-- CSS
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- CSS     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link rel="stylesheet" href="../css/normalize.css">
 <link rel="stylesheet" href="../css/skeleton.css">
 <link rel="stylesheet" href="../css/style.css">
 
-<!-- Favicon
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- Favicon    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link rel="icon" type="image/png" href="../assets/favicon.png">
 </head>
 
@@ -51,16 +47,12 @@
   </div>
 </nav>
 <!-- TemplateBeginEditable name="PageBody" -->
-<div class="one-half">
-  <div class="container">
-    <div class="row"> 
-      <!--add contents--> 
-    </div>
+<div class="container one-half">
+  <div class="row"> 
+    <!--add contents--> 
   </div>
-  <div class="container">
-    <div class="row one-half"> 
-      <!--add contents--> 
-    </div>
+  <div class="row"> 
+    <!--add contents--> 
   </div>
 </div>
 <!-- TemplateEndEditable -->
