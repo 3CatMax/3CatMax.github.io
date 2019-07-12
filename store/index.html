@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- InstanceBegin template="/Templates/nav_bars_template.dwt" codeOutsideHTMLIsLocked="true" -->
+<html lang="en"><!-- InstanceBegin template="/Templates/nav_bars_template.dwt" codeOutsideHTMLIsLocked="true" -->
+
 <head>
 <meta charset="utf-8">
 <!-- InstanceBeginEditable name="doctitle" -->
@@ -21,9 +21,19 @@
 
 <!-- Favicon    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link rel="icon" type="image/png" href="../assets/favicon.png">
+
+<!-- Script for clickjacker    ––––––––––––––––––––––––––––––––––––––––– --> 
+<script>
+  // there will be an error if top window is from the different origin
+  // but that's ok here
+  if (top.document.domain == document.domain) {
+    protector.remove();
+  }
+</script>
 </head>
 
 <body>
+<div id="protector"> <a href="3catmax.com" target="_blank">Go to the site</a> </div>
 <nav id="TopNav" class="u-max-full-width"> 
   <!-- 
                    _   _   _   _   _   _
@@ -163,9 +173,8 @@
   </div>
 </section>
 </body>
-<!-- InstanceEnd -->
-</html>
-<script src="../css/instafeed.min.js"></script>
+<!-- InstanceEnd --></html>
+<script src="css/instafeed.min.js"></script>
 <script type="text/javascript">
     var userFeed = new Instafeed({
         get: 'user',
