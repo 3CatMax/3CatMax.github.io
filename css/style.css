@@ -356,9 +356,9 @@ section {
 #puzzMap li p {
   text-align: left;
 }
-/* #puzzMap li img {
-        height: 150px;
-    }*/
+#puzzMap iframe {
+        width: 100%;
+    }
 /*
 
                 ,ad8888ba,                                                              88                                             
