@@ -266,7 +266,7 @@ a:hover {
   border-color: #7F66E6;
   outline: 0;
 }
-.button.backButton, button.backButton, input[type="submit"].backButton, input[type="reset"].backButton, input[type="button"].backButton {
+.button.shyButton, button.shyButton, input[type="submit"].shyButton, input[type="reset"].shyButton, input[type="button"].shyButton {
 	color: #7f66e6;
 	text-align: center;
 	padding: 6px 8px 6px 8px;
@@ -275,7 +275,7 @@ a:hover {
 	background-color: rgba(167, 255, 250, 0.3); /*translucent*/
 	margin-bottom: 40px;
 }
-.button.backButton:hover, button.backButton:hover, .button.backButton:focus, button.backButton:focus {
+.button.shyButton:hover, button.shyButton:hover, .button.shyButton:focus, button.shyButton:focus {
   color: #7F66E6;
   border-color: #7F66E6;
   outline: 0;
