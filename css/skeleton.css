@@ -274,6 +274,7 @@ a:hover {
 	border: none;
 	background-color: rgba(167, 255, 250, 0.3); /*translucent*/
 	margin-bottom: 40px;
+	cursor: pointer;
 }
 .button.shyButton:hover, button.shyButton:hover, .button.shyButton:focus, button.shyButton:focus {
   color: #7F66E6;
