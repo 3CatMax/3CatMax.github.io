@@ -266,7 +266,7 @@ a:hover {
   border-color: #7F66E6;
   outline: 0;
 }
-.button.shyButton, button.shyButton, input[type="submit"].shyButton, input[type="reset"].shyButton, input[type="button"].shyButton {
+.button.shyButton, button.shyButton, input[type="submit"].shyButton, input[type="shyButton"].shyButton, input[type="button"].shyButton {
 	color: #7f66e6;
 	text-align: center;
 	padding: 6px 8px 6px 8px;
