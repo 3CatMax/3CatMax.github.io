@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- InstanceBegin template="/Templates/nav_bars_template.dwt" codeOutsideHTMLIsLocked="true" -->
+<html lang="en"><!-- InstanceBegin template="/Templates/nav_bars_template.dwt" codeOutsideHTMLIsLocked="true" -->
+
 <head>
 <!-- Global site tag (gtag.js) - Google Analytics --> 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143774538-1"></script> 
@@ -32,6 +32,14 @@
 		filter: function(image) {return image.tags.indexOf('100travelingpuzzles') >= 0;}
     });
     userFeed.run();
+</script>
+	<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: '100travelingpuzzles',
+        clientId: '758ecda6156a4fefa2dda30f88357812'
+    });
+    feed.run();
 </script>
 <!-- InstanceEndEditable -->
 <!-- Mobile Specific Metas    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -341,9 +349,9 @@
   </div>
 </section>
 </body>
-<!-- InstanceEnd -->
-</html>
-<script src="css/instafeed.min.js"></script>
+<!-- InstanceEnd --></html>
+<!--
+<script src="../css/instafeed.min.js"></script>
 <script type="text/javascript">
     var userFeed = new Instafeed({
         get: 'user',
@@ -358,4 +366,4 @@
 		filter: function(image) {return image.tags.indexOf('100travelingpuzzles') >= 0;}
     });
     userFeed.run();
-</script>
+</script>-->
