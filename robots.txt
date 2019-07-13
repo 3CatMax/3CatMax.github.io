@@ -1,3 +1,4 @@
+Sitemap: https://3catmax.com/sitemap.xml
 User-agent: *
 Disallow: /Templates
 Disallow: /README.md
