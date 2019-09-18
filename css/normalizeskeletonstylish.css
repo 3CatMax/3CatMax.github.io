@@ -1411,18 +1411,25 @@ d8'          `8b 8Y"Ybbd8"'   `"YbbdP"'   `"YbbdP'Y8   "Y888
   text-transform: uppercase;
 }
 /*Store*/
-#Store {
+#Store li{
   text-align: center;
 }
 #Store .shopItem {
-  display: inline-block;
+  
   margin: 20px;
 }
 
  #Store .shopItem a{
 	color:#6D50E1;
 	text-decoration: none;
+	text-align: center;
 }
+
+ #Store .shopItem img{
+	width:100%;
+}
+
+
 #Store .viewCart {
   margin: 30px 0px;
 }
