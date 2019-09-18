@@ -702,8 +702,20 @@ u
 u
 u
 */
+.thumbrows{
+	display:inline-flex;
+	
+}
 
-
+.thumb img {
+	width:100%;
+	opacity:0.5;
+	cursor: pointer;
+	
+}
+.thumb:hover img{
+	opacity:1;
+}
 /*                
                                                                      
 888888888888                    888b      88                         

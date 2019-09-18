@@ -58,13 +58,103 @@
 </nav>
 <!-- InstanceBeginEditable name="PageBody" -->
 <section id="ItemPage">
-  <div class="container one-half">
+  <div class="container one-half"> <!--"back to store" and title section-->
     <div class="row"> 
       <input class="shyButton" type="button" value="Back to Store" onclick="window.location.href = '../index.html'"/>
       <h3>Shimmer Hummingbird Puzzle</h3>
     </div>
-    <div class="row">
-      <div class="five columns"><img src="../../assets/shimmer_hummingbird_puzzle_view_1.jpg" alt="jewel-toned shimmery hummingbird puzzle" width="100%"/></div>
+    <div class="row"> <!--Listing-->
+      <div class="five columns">
+		  <img class="itemSlide" 
+			   src="../../assets/shimmer_hummingbird_puzzle_view_1.jpg"
+			   alt="jewel-toned shimmery hummingbird puzzle view 1" 
+			   style="width:100%; display: block;"/>
+		 <img class="itemSlide" 
+			   src="../../assets/shimmer_hummingbird_puzzle_view_2.jpg" 
+			   alt="jewel-toned shimmery hummingbird puzzle view 2" 
+			   style="width:100%; display: none;"/>
+		 <img class="itemSlide" 
+			   src="../../assets/shimmer_hummingbird_puzzle_view_3.jpg" 
+			   alt="jewel-toned shimmery hummingbird puzzle view 3" 
+			   style="width:100%; display: none;"/>
+		  <!--
+		  <img class="itemSlide" 
+			   src="../../assets/shimmer_hummingbird_puzzle_view_4.jpg" 
+			   alt="jewel-toned shimmery hummingbird puzzle view 4" 
+			   style="width:100%; display: none;"/>
+		  <img class="itemSlide" 
+			   src="../../assets/shimmer_hummingbird_puzzle_view_5.jpg" 
+			   alt="jewel-toned shimmery hummingbird puzzle" 
+			   style="width:100%; display: none;"/>
+		  <img class="itemSlide" 
+			   src="../../assets/shimmer_hummingbird_puzzle_view_6.jpg" 
+			   alt="jewel-toned shimmery hummingbird puzzle" 
+			   style="width:100%; display: none;"/>-->
+		  
+    <div class="thumbrows"> <!--thumbs row 1-->
+      <div class="thumb">
+        <img src="../../assets/shimmer_hummingbird_puzzle_view_1.jpg"
+			 alt="jewel-toned shimmery hummingbird puzzle"
+			 onclick="currentDiv(1)">
+      </div>
+      <div class="thumb">
+        <img src="../../assets/shimmer_hummingbird_puzzle_view_2.jpg"
+			 alt="jewel-toned shimmery hummingbird puzzle"
+			 onclick="currentDiv(2)">
+      </div>
+      <div class="thumb">
+        <img src="../../assets/shimmer_hummingbird_puzzle_view_3.jpg"
+			 alt="jewel-toned shimmery hummingbird puzzle"
+			 onclick="currentDiv(3)">
+      </div>
+		<!--
+      <div class="thumb">
+        <img src="https://3catmax.com/assets/shimmer_hummingbird_puzzle_view_4.jpg"
+			 alt="jewel-toned shimmery hummingbird puzzle"
+			 onclick="currentDiv(4)">
+      </div>
+      <div class="thumb">
+        <img src="../../assets/shimmer_hummingbird_puzzle_view_5.jpg"
+			 alt="jewel-toned shimmery hummingbird puzzle"
+			 onclick="currentDiv(5)">
+      </div>
+      <div class="thumb">
+        <img src="../../assets/shimmer_hummingbird_puzzle_view_6.jpg"
+			 alt="jewel-toned shimmery hummingbird puzzle"
+			 onclick="currentDiv(6)">
+      </div>-->
+    </div>
+</div>
+
+<script>
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("itemSlide");
+  var dots = document.getElementsByClassName("thumb .img");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace("opacity", "1");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += "opacity";
+}
+</script>
+
+		
+		
+		
+		
+		
+		
+		
       <div class="seven columns"> <!--Text Description-->
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
       </div>
