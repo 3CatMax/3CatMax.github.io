@@ -13,34 +13,20 @@
 </script>
 <meta charset="utf-8">
 <!-- InstanceBeginEditable name="Head" -->
-<title>Contact Page | 3 Cat Max Curiously Peculiar Puzzles</title>
+<title>Traveling Puzzle Sponsorships | 3 Cat Max Curiously Peculiar Puzzles</title>
 <meta name="Laser Cats" content="Laser Cats! Pew! Pew! Pew!!!">
 <meta name="Owner" content="Janell Amely">
-<meta name="Description" content="Contact form for creating a custom hand-painted wooden jigsaw puzzle that makes a great gift for Mom or that puzzle lover in your life.">
-
-<!-- Google Forms Embed
-    ––––––––––––––––––––––––––––––––––––––––––––––––––-->
-<style>
-iframe {
-    margin-top: -30px;
-	margin-bottom: -10px;
-    width: 100%;
-    overflow: hidden;
-    height: 1240px;
-    border: 0px;
-    padding: 0px;
-}
-</style>
+<meta name="Description" content="Buy this community-driven puzzle to dip your toes into the design process of making jigsaw puzzles.">
 <!-- InstanceEndEditable -->
 <!-- Mobile Specific Metas    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- FONT    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 <!-- CSS     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<link rel="stylesheet" href="css/normalizeskeletonstylish.css">
+<link rel="stylesheet" href="../css/normalizeskeletonstylish.css">
 <!-- Favicon    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<link rel="icon" type="image/png" href="assets/favicon.png">
-<link rel="apple-touch-icon" href="assets/favicon.png">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="apple-touch-icon" href="../assets/favicon.png">
 <!--TODO make 180px180px-->
 </head>
 
@@ -56,7 +42,7 @@ iframe {
     <div style="display:none">
       <h1>3 Cat Max Curiously Peculiar Puzzles</h1>
     </div>
-    <div class="LeftLogoBox"> <a href="index.html" alt="Link to 3Catmax.com homepage">3 Cat Max</a> </div>
+    <div class="LeftLogoBox"> <a href="../index.html" alt="Link to 3Catmax.com homepage">3 Cat Max</a> </div>
     <div class="burgermenu-container">
       <label for="burgercheck" class="burgermenu-wrapper">
       <div class="burger-element"></div>
@@ -64,14 +50,108 @@ iframe {
     </div>
     <input type="checkbox" class="menubox" id="burgercheck">
     <ul class="link-wrapper">
-      <li class="is-active"><a href="about.html">About&nbsp;|&nbsp;FAQ</a></li>
-      <li><a href="store/index.html">Store</a></li>
-      <li><a href="contact.html"  alt="Link to contact me about making a Custom Puzzle">Custom&nbsp;Puzzles</a></li>
+      <li class="is-active"><a href="../about.html">About&nbsp;|&nbsp;FAQ</a></li>
+      <li><a href="index.html">Store</a></li>
+      <li><a href="../contact.html"  alt="Link to contact me about making a Custom Puzzle">Custom&nbsp;Puzzles</a></li>
     </ul>
   </div>
 </nav>
 <!-- InstanceBeginEditable name="PageBody" -->
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfNX5DIObobuqxpWZQzC1je2p6OqYrAImILlVtnevgu_BDUbw/viewform" alt="Google Form that you can contact me with"> Loading... </iframe>
+<section id="ItemPage">
+  <div class="container one-half">
+    <input class="shyButton" type="button" value="Back to Store" onclick="window.location.href = '../../index.html'"/>
+    <div class="row">
+      <h3 class="separator">Traveling Puzzle Sponsorship</h3>
+    </div>
+    <div class="row">
+      <p style="text-align: center;">This is how you make this maker do a happy dance!<br>
+        Congrats on completing your order!</p>
+      <div class="heartspace">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="five columns"> <img class="itemSlide" 
+			   src="../assets/product-image/shimmer-sunflower-puzzle-together.jpg"
+			   alt="shimmery sunflower jigsaw puzzle together" 
+			   style="width:100%; display: block;"/> <img class="itemSlide" 
+			   src="../assets/product-image/shimmer-sunflower-puzzle-pieces.jpg" 
+			   alt="jewel-toned shimmery sunflower jigsaw puzzle pieces" 
+			   style="width:100%; display: none;"/> <img class="itemSlide" 
+			   src="../assets/product-image/shimmer-sunflower-puzzle-pieces.jpg" 
+			   alt="jewel-toned shimmery sunflower jigsaw puzzle in black metal tin" 
+			   style="width:100%; display: none;"/>
+        <div class="thumbrows"> <!--thumbs-->
+          <div class="thumb"> <img src="../assets/product-image/shimmer-sunflower-puzzle-together.jpg"
+			 alt="shimmery sunflower jigsaw puzzle together"
+			 onclick="currentDiv(1)"> </div>
+          <div class="thumb"> <img src="../assets/product-image/shimmer-sunflower-puzzle-pieces.jpg"
+			 alt="jewel-toned shimmery sunflower jigsaw puzzle pieces"
+			 onclick="currentDiv(2)"> </div>
+          <div class="thumb"> <img src="../assets/product-image/shimmer-sunflower-puzzle-pieces.jpg"
+			 alt="jewel-toned shimmery sunflower jigsaw puzzle pieces"
+			 onclick="currentDiv(3)"> </div>
+        </div>
+      </div>
+      <script>
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("itemSlide");
+  var dots = document.getElementsByClassName("thumb .img");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace("opacity", "1");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += "opacity";
+}
+</script>
+      <div class="seven columns"> <!--Text Description-->
+        <p>Contribute to the traveling puzzle community by sponsoring a puzzle!</p>
+        <p>This is a 6"x6" hand-painted wooden puzzle, packaged in a custom black 
+          tin for ease of shipping to a friend or loved one when you have finished it. 
+          This picture is representative of the type of puzzle that we will create.</p>
+        <p>Within 2-3 weeks of making the choices below, I'll send you your new puzzle
+          to share and feature your puzzle on my website
+          and through social media.</p>
+        <h4>Working together, we will:</h4>
+        <li>Choose the imagery style or subject of the puzzle</li>
+        <li>Choose 3 whimsy pieces (iconic shapes) to be cut into the puzzle</li>
+        <li>Engrave your signed name and a small quote you select to the traveling tin</li>
+        <li>Send it to you via USPS</li>
+      </div>
+      <div class="row u-pull-right">
+        <div class="myIrritation"> <!--This is for the Traveling Puzzle sponsor button    Paypal.com/buttons  choose "Add to Cart" or "View Saved Buttons"-->
+          <h5 style="text-align:right; color:#6d50e1">Price: $50.00</h5>
+          <form style="margin-top:-30px" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="LUNZASERZS5JE">
+            <!-- THIS IS THE ONLY BUTTON CODE YOU NEED TO CHANGE-->
+            <input class="button" type="submit"  name="submit" value="Add to Cart" title="PayPal - The safer, easier way to pay online!">
+            <img alt="Paypal pixel" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <!--This is the Cart button, leave it alone-->
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+            <input class="shyButton" type="submit"  name="submit" value="View Cart" title="PayPal - The safer, easier way to pay online!">
+            <img alt="Paypal pixel" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- InstanceEndEditable -->
 <section id="LowNav" class="u-full-width"> 
   <!--
@@ -84,14 +164,14 @@ iframe {
     <div class="row">
       <div class="links">
         <ul>
-          <li><a href="contact.html">Contact&nbsp;Form</a></li>
+          <li><a href="../contact.html">Contact&nbsp;Form</a></li>
           <li><a href="https://github.com/3CatMax/LaserFiles" target="_blank">Free&nbsp;Laser&nbsp;Files</a></li>
         </ul>
       </div>
       <div class="links">
         <ul>
-          <li><a href="travelingpuzzles/index.html"  alt="Link to see my #100 Traveling Puzzles project">Traveling&nbsp;Puzzles</a></li>
-          <li><a href="emailsub.html"  alt="Link to sign up for 3 Cat Max newsletter">Newsletter</a></li>
+          <li><a href="../travelingpuzzles/index.html"  alt="Link to see my #100 Traveling Puzzles project">Traveling&nbsp;Puzzles</a></li>
+          <li><a href="../emailsub.html"  alt="Link to sign up for 3 Cat Max newsletter">Newsletter</a></li>
         </ul>
       </div>
       <div class="social">
@@ -120,7 +200,7 @@ iframe {
       </div>
     </div>
     <div class="copyright row">
-      <div class="buttlogo"> <a href="index.html" alt="link to 3catmax.com homepage">
+      <div class="buttlogo"> <a href="../index.html" alt="link to 3catmax.com homepage">
         <svg xmlns="http://www.w3.org/2000/svg" width="98.39" height="90.82" viewBox="0 0 98.39 90.82"> 
           <path d="M13.3,2.85V5.17L31.2,5s-1.28,4.13-9.08,11.62l.13.91s11.41-4.27,13,4.13-3.7,11.59-6,12.91c-4.74,2.7-11.89-.13-15.73-2.2l-1.28,1.42s12.25,6.89,19.83,1.55a13.61,13.61,0,0,0,4.6-16.52c-.92-2.07-4.22-5.42-9.72-4.39a58.09,58.09,0,0,0,8.57-12Z" style="fill:#475555;fill-rule:evenodd"/>
           <path d="M63,2.91C61.74,2.45,51.86.45,48,13.75c-4,13.93.38,24.92,2.56,28.14S56.21,48,65.29,46.54L65,43.7s-9.62,3-13-3.87c-3.17-6.35-5.42-19.1-.26-29.95,1.73-3.64,5.76-5.94,11.26-5Z" style="fill:#475555;fill-rule:evenodd"/>
