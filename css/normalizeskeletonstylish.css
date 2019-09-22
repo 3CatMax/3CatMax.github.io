@@ -1014,6 +1014,14 @@ section {
 #travPuzz {
   text-align: center; /*align images in li*/
 }
+
+#travPuzz h3 {
+  margin-top: 100px;
+  font-size: 4.0rem;
+  line-height: 2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 #travPuzz h4 {
   padding-top: 50px;
 }
@@ -1393,14 +1401,6 @@ d8'          `8b 8Y"Ybbd8"'   `"YbbdP"'   `"YbbdP'Y8   "Y888
   width: 100%;
 }
 
-
-/*Cat-alog*/
-#Catalog h3 {
-  font-size: 4.0rem;
-  line-height: 2;
-  font-weight: bold;
-  text-transform: uppercase;
-}
 /*Store*/
 #Store li{
   text-align: center;
@@ -1422,6 +1422,7 @@ d8'          `8b 8Y"Ybbd8"'   `"YbbdP"'   `"YbbdP'Y8   "Y888
 
 
 #Store .viewCart {
+	text-align: center;
   margin: 30px 0px;
 }
 /*Item page*/
