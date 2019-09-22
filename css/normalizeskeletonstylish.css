@@ -1337,6 +1337,10 @@ d8'          `8b 8Y"Ybbd8"'   `"YbbdP"'   `"YbbdP'Y8   "Y888
 .about a:hover {
   color: #6d50e1;
 }
+
+.about img{
+	border-radius: 10px;
+}
 .insta {
   text-align: center;
 }
