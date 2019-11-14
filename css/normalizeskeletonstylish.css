@@ -1396,9 +1396,9 @@ d8'          `8b 8Y"Ybbd8"'   `"YbbdP"'   `"YbbdP'Y8   "Y888
   font-weight: bold;
   text-transform: uppercase;
 }
-#PuzzPages iframe {/*don't think this does anything*/
-        width: 100%;
-    }
+/*#PuzzPages iframe {/*don't think this does anything*/
+/*        width: 100%;
+ /*   }*/
 
 #PuzzPages img {
   width: 100%;
