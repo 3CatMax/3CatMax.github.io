@@ -572,17 +572,20 @@ a:hover {
 .button.shyButton, button.shyButton, input[type="submit"].shyButton, input[type="shyButton"].shyButton, input[type="button"].shyButton {
   color: #7f66e6;
   text-align: center;
+  font-size: 1.9rem;
   padding: 6px 8px 6px 8px;
-  border-radius: 5px;
+  border-radius: 3px;
   border: none;
-  background-color: rgba(167, 255, 250, 0.3); /*translucent*/
-  margin-bottom: 40px;
+  background-color: rgba(167, 255, 250, 0.7); /*translucent*/
+  margin-top: 4px;
+  margin-bottom:0px;
   cursor: pointer;
+   
 }
 .button.shyButton:hover, button.shyButton:hover, .button.shyButton:focus, button.shyButton:focus {
   color: #7F66E6;
   border-color: #7F66E6;
-  outline: 0;
+
 }
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -752,7 +755,7 @@ u
   color: #74DDD9;
 }
 #TopNav .LeftLogoBox a:hover {
-  background: white;
+  background: #afeeee;
   color: #74DDD9;
 }
 /*
@@ -784,7 +787,7 @@ u
 }
 .link-wrapper a {
   display: block;
-  padding: 5px 10px;
+  padding: 5px 8px;
   color: #ffffff;
   text-decoration: none;
   transition: ease 0.25s;
