@@ -1040,7 +1040,7 @@ section {
 #travPuzz img {
   width: 100%;
   position: relative;
-  z-index: -100;
+/*  z-index: -100;*/
 }
 /*Also used on traveling_puzzles.html*/
 .stupidButtons {}
