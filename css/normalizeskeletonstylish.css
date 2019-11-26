@@ -572,6 +572,7 @@ a:hover {
 .button.shyButton, button.shyButton, input[type="submit"].shyButton, input[type="shyButton"].shyButton, input[type="button"].shyButton {
   color: #7f66e6;
   text-align: center;
+  font-weight:600;
   font-size: 1.9rem;
   padding: 6px 8px 6px 8px;
   border-radius: 3px;
@@ -783,14 +784,14 @@ u
 }
 .link-wrapper li {
   padding: 10px 5px 10px 5px;
-  transition: ease 0.25s;
+/*  transition: ease 0.25s;*/
 }
 .link-wrapper a {
   display: block;
   padding: 5px 8px;
   color: #ffffff;
   text-decoration: none;
-  transition: ease 0.25s;
+/*  transition: ease 0.25s;*/
 }
 .link-wrapper a:active {
   color: #74DDD9;
@@ -855,7 +856,7 @@ u
   display: none;
 }
 /* RESPONSIVE  */
-@media all and (max-width: 585px) {
+@media all and (max-width: 700px) { /*585 when not having banner?*/
   .burgermenu-container {
     display: block;
   }
@@ -881,6 +882,43 @@ u
     justify-content: space-around;
   }
 }
+
+/*Free Shipping BANNER Free Shipping BANNER Free Shipping BANNER Free Shipping BANNER*/
+
+.banner {
+  position: relative;
+  background: #6d50e1;
+  color: #ffffff;
+  text-align: center;
+  padding: 3px 15px;
+  margin: -50px 10px 0px 10px;
+	
+}
+  
+ .banner:before, .banner:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background-color: inherit;
+    transform: skewX(-35deg);
+    z-index: -1;
+  }
+
+  .banner:after {
+    transform: skewX(35deg);
+  }
+
+
+
+
+
+
+
+
+
 /* 
                         ad88888ba                                88                          
                        d8"     "8b                         ,d    ""                          
@@ -1319,37 +1357,38 @@ section {
  d8'        `8b  88b,   ,a8" "8a,   ,a8" "8a,   ,a88   88,    
 d8'          `8b 8Y"Ybbd8"'   `"YbbdP"'   `"YbbdP'Y8   "Y888  
 */
-.about p {
+#about p {
   text-align: center;
 }
-.about .military {
+/*.about .military {
   margin-bottom: 20px;
   padding: 20px 20px 5px 20px;
-}
-.about h2 {
+}*/
+#about h2 {
   color: #7F66E6;
 }
-.about h3 {
+#about h3 {
   font-size: 4.0rem;
   line-height: 2;
   font-weight: bold;
   text-transform: uppercase;
 }
-.about .military h5 {
+/*.about .military h5 {
   font-weight: 500;
   text-align: center;
   margin-top: -10px;
   margin-bottom: 15px;
-}
-.about a {
+}*/
+
+#about a {
   color: #74ddd9;
   text-decoration: none;
 }
-.about a:hover {
+#about a:hover {
   color: #6d50e1;
 }
 
-.about img{
+#about img{
 	border-radius: 10px;
 }
 .insta {
